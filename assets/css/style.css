@@ -1,6 +1,7 @@
 body {
     background-image: url(https://wallpaperscraft.com/image/drawing_stones_diamonds_precious_shiny_29905_1920x1080.jpg);
-    
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
     
 }
 .img {
@@ -8,8 +9,11 @@ body {
     width: 100px;
 }
 #header {
-    background-color: rgb(87, 126, 14);
+    background-color: rgb(116, 7, 7);
     color: white;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 35px;
 }
 #instructions {
     background-color: rgb(140, 222, 228);
@@ -19,15 +23,15 @@ body {
     margin-left: 15px;;
     }
 #randomNumber {
-    background-color: rgb(171, 99, 185);
+    background-color: rgb(191, 168, 196);
     color: rgb(235, 103, 27);
-    font-size: 30px;
+    font-size: 50px;
     width: 100%;
     margin-bottom: 20px;
     height: 100px;
 }
 #progress {
-    background-color: rgb(174, 146, 199);
+    background-color: rgb(193, 187, 199);
     color: rgb(238, 83, 12);
     font-size: 20px;
     height: 100px
@@ -37,6 +41,9 @@ body {
     color: rgb(16, 8, 31);
     margin-top: 20px;
     margin-left: 0px;
+}
+#totalHeader {
+    font-size: 25px;
 }
 #total {
     height: 100px;
