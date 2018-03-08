@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Crystals Collector</title>
+</head>
+<body>
+<!-- pictures:
+diamod: http://globe-views.com/dcim/dreams/diamond/diamond-04.jpg
+sapphire: http://www.halitebkk.com/images/ysapphire/y5.jpg
+ruby: http://gemstoneguru.com/wp-content/uploads/2012/05/Garnet-Rhodolite.jpg
+emerald: https://cdn.leibish.com/media/gemstones/thumb_1280/gemstone-304334-emerald-emerald-green-371fa.jpg -->
+<div class="container">
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <h1 id="header">Crystals Collector</h1>
+    </div>
+    <div class="col-lg-8 col-md-8"></div>
+    
+</div>
+
+<div class="row">
+    <div id="instructions" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <p>You will be given a random number at the start of the game.</p>
+           
+        <p>There are four crystals below. By clickin on a crystal you will ad a specific amount of points to your total score.</p>
+           
+        <p>You win the game by matching your total score to the random number assigned, you if your total score goes above the random nymer.</p>
+           
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+            
+        <p>Each time when the game starts; the game will change the values of the random number and the crystals.</p>
+    </div>
+    
+    <div class="col-lg-6 col-md-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6">
+        <div id="randomNumber" class="col-lg-8 col-md-8">
+            <br>
+            <br>
+        </div>
+    </div>
+    <div id="progress" class="col-lg-2 col-md-2 col-sm-4">
+        <div id="wins">
+            <p>Wins:</p>
+        </div>
+        <div id="losses">
+            <p>Losses:</p>
+        </div>
+    </div>
+    <div class="col-lg-7 col-md-7 col-sm-2"></div>
+    
+</div>
+
+<div id="imgs" class="row">
+    <button><img class="img-fluid img" src="http://gemstoneguru.com/wp-content/uploads/2012/05/Garnet-Rhodolite.jpg" alt="Ruby"></button>
+    <button><img class="img-fluid img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-DS9rKbmtwFEQRMQ7qQLfa0uaR7X2xj6W3lBcjCvHT14441DBQ" alt="Diamond"></button>
+    <button><img class="img-fluid img" src="http://www.halitebkk.com/images/ysapphire/y5.jpg" alt="Sapphire"></button>
+    <button><img class="img-fluid img" src="https://cdn.leibish.com/media/gemstones/thumb_1280/gemstone-304334-emerald-emerald-green-371fa.jpg" alt="Emerald"></button>
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+        <div id="totalHeader" class="row">Your total score is:</div>
+        <div id="total" class="row" id="totalScore">
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-4"></div>
+</div>
+
+</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
