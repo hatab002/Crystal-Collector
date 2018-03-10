@@ -57,3 +57,8 @@ body {
 #imgs {
     margin-left: 0px;
 }
+
+input[type=image] {
+    -webkit-appearance: none;
+    -webkit-border-radius:0px;
+}
