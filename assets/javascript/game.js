@@ -6,7 +6,6 @@ $(document).ready(function(){
     var img4 = Math.floor((Math.random() * 11) + 1);
     var randomNumber = Math.floor((Math.random() * 101) + 19);
     $("#randomNumber").text(randomNumber);
-    console.log(randomNumber);
     var total = 0;
     var wins = 0;
     $('#wins').text("Wins: " + wins);
@@ -21,7 +20,6 @@ function reset(){
     img4 = Math.floor((Math.random() * 11) + 1);
     randomNumber = Math.floor((Math.random() * 101) + 19);
     $("#randomNumber").text(randomNumber);
-    console.log(randomNumber);
     total = 0;
     $('#total').text(total);    
 }
@@ -47,7 +45,6 @@ $('button').on("click", function(){
 })
 $("#btn1").on("click", function(){
     total = total + img1;
-    console.log("newTotal =" + total);
     $('#total').text(total);
     if(total === randomNumber){
         win();} else if (total > randomNumber){
@@ -56,7 +53,6 @@ $("#btn1").on("click", function(){
 })
 $("#btn2").on("click", function(){
     total = total + img2;
-    console.log("total =" + total);
     $('#total').text(total);
     if(total === randomNumber){
         win();} else if (total > randomNumber){
@@ -65,7 +61,6 @@ $("#btn2").on("click", function(){
 })
 $("#btn3").on("click", function(){
     total = total + img3;
-    console.log("newTotal =" + total);
     $('#total').text(total);
     if(total === randomNumber){
         win();} else if (total > randomNumber){
@@ -74,7 +69,6 @@ $("#btn3").on("click", function(){
 })
 $("#btn4").on("click", function(){
     total = total + img4;
-    console.log("newTotal =" + total);
     $('#total').text(total);
     if(total === randomNumber){
         win();} else if (total > randomNumber){
