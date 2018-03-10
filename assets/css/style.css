@@ -60,5 +60,5 @@ body {
 
 input[type=image] {
     -webkit-appearance: none;
-    -webkit-border-radius:0px;
+    border-radius:0px;
 }
