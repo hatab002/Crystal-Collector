@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+    $("#musicButton").on("click", function(){
+        $('audio#music')[0].play();
+        var musicOn = true;
+    });
+    
+
+
+    
+
+
     var img1 = Math.floor((Math.random() * 11) + 1);
     var img2 = Math.floor((Math.random() * 11) + 1);
     var img3 = Math.floor((Math.random() * 11) + 1);
