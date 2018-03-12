@@ -1,9 +1,9 @@
-_# week-4-game_
+**_# week-4-game_**
 ## __jQuery game: Crystal Collector__
 
 This is an example of using simple jQuery to add some dynamic properties to your website.
 
-###Here are the steps executed in this game:
+### Here are the steps executed in this game:
 
 * Create an html using bootstrap, using a _grid_ might be helpful in organizing the different elements of the page.
 * Add some styling using some css.
