@@ -2,12 +2,7 @@ $(document).ready(function(){
 
     $("#musicButton").on("click", function(){
         $('audio#music')[0].play();
-        var musicOn = true;
     });
-    
-
-
-    
 
 
     var img1 = Math.floor((Math.random() * 11) + 1);
@@ -35,7 +30,7 @@ function reset(){
 }
 
 function win() {
-    message = "You win!!"
+    message = "You win!!";
     $("#message").html(message);
     wins++;
     $('#wins').text("Wins: " + wins);
@@ -43,7 +38,7 @@ function win() {
 }
 
 function lose() {
-    message = "You lose!!"
+    message = "You lose!!";
     $("#message").html(message);
     losses++;
     $('#losses').text("Losses: " + losses);
